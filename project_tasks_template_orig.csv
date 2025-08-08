@@ -1,0 +1,77 @@
+Project,Milestone,Task,TaskID,DependsOn,EstimatedHours,Priority,StartDate,DueDate,Owner
+Website Redesign,Milestone 1,Task 1 for Milestone 1,T1,,4,High,2025-08-24,2025-08-31,David
+Website Redesign,Milestone 1,Task 2 for Milestone 1,T2,T1,9,Medium,2025-08-20,2025-08-21,David
+Website Redesign,Milestone 1,Task 3 for Milestone 1,T3,,10,Low,2025-09-08,2025-09-14,Bob
+Website Redesign,Milestone 2,Task 4 for Milestone 2,T4,,7,High,2025-08-19,2025-08-25,Charlie
+Website Redesign,Milestone 2,Task 5 for Milestone 2,T5,T4,4,Low,2025-09-01,2025-09-07,David
+Website Redesign,Milestone 2,Task 6 for Milestone 2,T6,,6,High,2025-08-23,2025-08-29,Bob
+Website Redesign,Milestone 3,Task 7 for Milestone 3,T7,,19,Low,2025-08-20,2025-08-26,Alice
+Website Redesign,Milestone 3,Task 8 for Milestone 3,T8,T7,6,High,2025-09-04,2025-09-06,Charlie
+Website Redesign,Milestone 4,Task 9 for Milestone 4,T9,,13,Medium,2025-08-13,2025-08-19,Alice
+Website Redesign,Milestone 4,Task 10 for Milestone 4,T10,,8,High,2025-08-22,2025-08-25,David
+Mobile App Launch,Milestone 1,Task 11 for Milestone 1,T11,,12,Low,2025-08-18,2025-08-23,Bob
+Mobile App Launch,Milestone 1,Task 12 for Milestone 1,T12,T11,4,Low,2025-09-01,2025-09-08,David
+Mobile App Launch,Milestone 1,Task 13 for Milestone 1,T13,T12,17,High,2025-09-05,2025-09-08,David
+Mobile App Launch,Milestone 1,Task 14 for Milestone 1,T14,,4,Medium,2025-09-01,2025-09-06,Charlie
+Mobile App Launch,Milestone 2,Task 15 for Milestone 2,T15,,16,Low,2025-08-10,2025-08-15,David
+Mobile App Launch,Milestone 2,Task 16 for Milestone 2,T16,T15,8,Medium,2025-09-08,2025-09-13,Bob
+Mobile App Launch,Milestone 2,Task 17 for Milestone 2,T17,,13,Low,2025-09-04,2025-09-11,Bob
+Mobile App Launch,Milestone 2,Task 18 for Milestone 2,T18,T17,5,Medium,2025-08-25,2025-09-01,Eve
+Mobile App Launch,Milestone 3,Task 19 for Milestone 3,T19,,4,Low,2025-08-19,2025-08-21,Alice
+Mobile App Launch,Milestone 3,Task 20 for Milestone 3,T20,T19,5,Low,2025-08-10,2025-08-11,Alice
+Mobile App Launch,Milestone 3,Task 21 for Milestone 3,T21,,11,Medium,2025-09-08,2025-09-09,Charlie
+Mobile App Launch,Milestone 3,Task 22 for Milestone 3,T22,,10,Low,2025-09-05,2025-09-07,David
+Mobile App Launch,Milestone 4,Task 23 for Milestone 4,T23,,19,High,2025-08-25,2025-08-26,Alice
+Mobile App Launch,Milestone 4,Task 24 for Milestone 4,T24,T23,11,Medium,2025-08-11,2025-08-15,Eve
+Mobile App Launch,Milestone 4,Task 25 for Milestone 4,T25,,11,Medium,2025-09-04,2025-09-10,Alice
+Cloud Migration,Milestone 1,Task 26 for Milestone 1,T26,,10,High,2025-08-30,2025-09-02,Bob
+Cloud Migration,Milestone 1,Task 27 for Milestone 1,T27,,18,Low,2025-08-12,2025-08-14,Bob
+Cloud Migration,Milestone 1,Task 28 for Milestone 1,T28,T27,14,Medium,2025-08-26,2025-09-02,Charlie
+Cloud Migration,Milestone 2,Task 29 for Milestone 2,T29,,17,Medium,2025-08-17,2025-08-21,Eve
+Cloud Migration,Milestone 2,Task 30 for Milestone 2,T30,T29,13,Medium,2025-09-05,2025-09-10,Bob
+Cloud Migration,Milestone 2,Task 31 for Milestone 2,T31,,15,High,2025-08-23,2025-08-27,David
+Cloud Migration,Milestone 3,Task 32 for Milestone 3,T32,,19,Low,2025-08-25,2025-08-27,Eve
+Cloud Migration,Milestone 3,Task 33 for Milestone 3,T33,T32,18,Low,2025-09-02,2025-09-09,Bob
+Cloud Migration,Milestone 3,Task 34 for Milestone 3,T34,T33,17,High,2025-08-19,2025-08-20,Alice
+Cloud Migration,Milestone 4,Task 35 for Milestone 4,T35,,5,Low,2025-08-28,2025-09-02,Charlie
+Cloud Migration,Milestone 4,Task 36 for Milestone 4,T36,,8,Medium,2025-08-24,2025-08-26,Eve
+Cloud Migration,Milestone 4,Task 37 for Milestone 4,T37,T36,8,Medium,2025-08-15,2025-08-22,Eve
+Cloud Migration,Milestone 4,Task 38 for Milestone 4,T38,,10,Medium,2025-08-15,2025-08-21,Alice
+CRM Upgrade,Milestone 1,Task 39 for Milestone 1,T39,,9,High,2025-08-16,2025-08-23,David
+CRM Upgrade,Milestone 1,Task 40 for Milestone 1,T40,,7,Medium,2025-08-23,2025-08-27,David
+CRM Upgrade,Milestone 1,Task 41 for Milestone 1,T41,T40,18,Medium,2025-08-20,2025-08-22,David
+CRM Upgrade,Milestone 2,Task 42 for Milestone 2,T42,,6,Low,2025-08-28,2025-09-01,Alice
+CRM Upgrade,Milestone 2,Task 43 for Milestone 2,T43,,6,Medium,2025-09-08,2025-09-14,Alice
+CRM Upgrade,Milestone 3,Task 44 for Milestone 3,T44,,10,Low,2025-08-13,2025-08-19,Charlie
+CRM Upgrade,Milestone 3,Task 45 for Milestone 3,T45,T44,13,Medium,2025-09-09,2025-09-16,Bob
+CRM Upgrade,Milestone 4,Task 46 for Milestone 4,T46,,7,Medium,2025-09-02,2025-09-04,David
+CRM Upgrade,Milestone 4,Task 47 for Milestone 4,T47,,4,High,2025-08-23,2025-08-24,Alice
+CRM Upgrade,Milestone 4,Task 48 for Milestone 4,T48,T47,11,Medium,2025-08-22,2025-08-27,Charlie
+CRM Upgrade,Milestone 4,Task 49 for Milestone 4,T49,,18,High,2025-08-17,2025-08-19,Charlie
+E-commerce Expansion,Milestone 1,Task 50 for Milestone 1,T50,,18,Low,2025-09-05,2025-09-07,David
+E-commerce Expansion,Milestone 1,Task 51 for Milestone 1,T51,T50,6,High,2025-08-10,2025-08-15,Charlie
+E-commerce Expansion,Milestone 2,Task 52 for Milestone 2,T52,,15,High,2025-08-30,2025-09-01,Alice
+E-commerce Expansion,Milestone 2,Task 53 for Milestone 2,T53,,16,High,2025-08-30,2025-09-05,Charlie
+E-commerce Expansion,Milestone 2,Task 54 for Milestone 2,T54,,10,Low,2025-08-10,2025-08-11,Charlie
+E-commerce Expansion,Milestone 3,Task 55 for Milestone 3,T55,,7,Low,2025-09-01,2025-09-06,Bob
+E-commerce Expansion,Milestone 3,Task 56 for Milestone 3,T56,T55,12,Low,2025-08-16,2025-08-19,Bob
+E-commerce Expansion,Milestone 3,Task 57 for Milestone 3,T57,T56,6,Medium,2025-08-26,2025-08-31,Eve
+E-commerce Expansion,Milestone 3,Task 58 for Milestone 3,T58,,16,High,2025-09-09,2025-09-14,Alice
+E-commerce Expansion,Milestone 4,Task 59 for Milestone 4,T59,,13,High,2025-08-28,2025-09-01,David
+E-commerce Expansion,Milestone 4,Task 60 for Milestone 4,T60,,8,High,2025-08-16,2025-08-22,David
+E-commerce Expansion,Milestone 4,Task 61 for Milestone 4,T61,,4,High,2025-09-01,2025-09-03,Bob
+E-commerce Expansion,Milestone 4,Task 62 for Milestone 4,T62,T61,7,Low,2025-08-19,2025-08-21,David
+Data Warehouse Build,Milestone 1,Task 63 for Milestone 1,T63,,13,High,2025-08-23,2025-08-30,David
+Data Warehouse Build,Milestone 1,Task 64 for Milestone 1,T64,,11,Medium,2025-09-08,2025-09-13,Alice
+Data Warehouse Build,Milestone 1,Task 65 for Milestone 1,T65,,19,Medium,2025-08-27,2025-09-02,David
+Data Warehouse Build,Milestone 1,Task 66 for Milestone 1,T66,T65,16,Low,2025-08-24,2025-08-29,Alice
+Data Warehouse Build,Milestone 2,Task 67 for Milestone 2,T67,,19,Medium,2025-09-08,2025-09-10,Charlie
+Data Warehouse Build,Milestone 2,Task 68 for Milestone 2,T68,,8,Medium,2025-08-22,2025-08-26,Eve
+Data Warehouse Build,Milestone 2,Task 69 for Milestone 2,T69,,11,Low,2025-08-24,2025-08-28,Eve
+Data Warehouse Build,Milestone 2,Task 70 for Milestone 2,T70,T69,14,Low,2025-09-03,2025-09-09,Bob
+Data Warehouse Build,Milestone 3,Task 71 for Milestone 3,T71,,18,Low,2025-09-03,2025-09-04,Alice
+Data Warehouse Build,Milestone 3,Task 72 for Milestone 3,T72,,17,Medium,2025-08-25,2025-08-31,Bob
+Data Warehouse Build,Milestone 4,Task 73 for Milestone 4,T73,,9,Medium,2025-09-04,2025-09-08,Charlie
+Data Warehouse Build,Milestone 4,Task 74 for Milestone 4,T74,T73,19,High,2025-08-11,2025-08-12,Eve
+Data Warehouse Build,Milestone 4,Task 75 for Milestone 4,T75,T74,14,High,2025-09-09,2025-09-12,David
+Data Warehouse Build,Milestone 4,Task 76 for Milestone 4,T76,,16,Medium,2025-09-05,2025-09-09,David

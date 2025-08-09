@@ -62,8 +62,8 @@ def load_all_tasks(csv_path):
             "DependsOn": str(row["DependsOn"]).split("|") if pd.notna(row["DependsOn"]) and row["DependsOn"] else [],
             "EstimatedHours": float(row["EstimatedHours"]),
             "Priority": row["Priority"],
-            "StartDate": pd.to_datetime(row["StartDate"]),
-            "DueDate": pd.to_datetime(row["DueDate"]),
+            "StartDate": pd.to_datetime(row["StartDate"], errors="coerce") if "StartDate" in row else None,
+            "DueDate": pd.to_datetime(row["DueDate"], errors="coerce") if "DueDate" in row else None,
             "Owner": row["Owner"],
             "ScheduledStart": None,
             "ScheduledEnd": None,
@@ -814,7 +814,7 @@ def show_kanban_ui(tasks_for_owner, owner, tasks_all, owners, csv_path):
 # Main
 # =============================
 if __name__ == "__main__":
-    csv_file = "project_tasks_with_comments.csv"  # adjust as needed
+    csv_file = r"\\smbp\wsimna\Incoming Apps\AutoTaskManager\project_tasks_with_comments.csv"  # Updated path
     try:
         tasks_all, owners = load_all_tasks(csv_file)
         ordered_ids_all = topological_sort(tasks_all)

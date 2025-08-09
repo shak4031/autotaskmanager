@@ -1,13 +1,16 @@
 Project,Milestone,Task,TaskID,DependsOn,EstimatedHours,Priority,StartDate,DueDate,Owner,Status,ActualHours,LastComment,CommentLog,LastUpdated,ActualSeconds,InProgressStart
-Website Redesign,Milestone 1,Task 1 for Milestone 1,T1,,7.0,High,2025-09-26,2025-10-01,Bob,Pending,0.0,,,,0,
+Website Redesign,Milestone 1,Task 1 for Milestone 1,T1,,7.0,High,2025-09-26,2025-10-01,Bob,Completed,0.02,,"2025-08-08T08:37:43 | Move -> In Progress: 
+2025-08-08T08:38:04 | Pause: 
+2025-08-08T08:51:29 | Move -> In Progress: 
+2025-08-08T08:52:06 | Move -> Completed: ",2025-08-08T08:52:06,89,
 Website Redesign,Milestone 1,Task 2 for Milestone 1,T2,T1,7.0,Low,2025-09-26,2025-10-05,Alice,Pending,0.0,,,,0,
 Website Redesign,Milestone 1,Task 3 for Milestone 1,T3,T2,5.0,High,2025-08-15,2025-08-19,Bob,Pending,0.0,,,,0,
 Website Redesign,Milestone 1,Task 4 for Milestone 1,T4,T3,4.0,Low,2025-08-22,2025-08-31,David,Pending,0.0,,,,0,
 Website Redesign,Milestone 1,Task 5 for Milestone 1,T5,T4,12.0,High,2025-09-27,2025-09-30,David,Pending,0.0,,,,0,
-Website Redesign,Milestone 2,Task 6 for Milestone 2,T6,,12.0,High,2025-08-23,2025-08-29,Alice,Completed,0.01,,"2025-08-08T11:04:31 | Move -> In Progress: 
-2025-08-08T11:04:50 | Pause: 
-2025-08-08T11:08:26 | Move -> In Progress: 
-2025-08-08T11:08:41 | Complete: ",2025-08-08T11:08:41,33,
+Website Redesign,Milestone 2,Task 6 for Milestone 2,T6,,12.0,High,2025-08-23,2025-08-29,Alice,Completed,12.0,,"2025-08-07T21:33:25 | Start: 
+2025-08-07T21:33:44 | Pause: Waiting on security team
+2025-08-07T21:37:29 | Resume: 
+2025-08-07T21:37:50 | Complete: ",2025-08-07T21:37:50,0,
 Website Redesign,Milestone 2,Task 7 for Milestone 2,T7,T6,7.0,Medium,2025-10-03,2025-10-09,Eve,Pending,0.0,,,,0,
 Website Redesign,Milestone 2,Task 8 for Milestone 2,T8,T7,5.0,Low,2025-09-08,2025-09-17,Alice,Pending,0.0,,,,0,
 Website Redesign,Milestone 2,Task 9 for Milestone 2,T9,,16.0,High,2025-09-14,2025-09-19,Eve,Pending,0.0,,,,0,
@@ -15,8 +18,7 @@ Website Redesign,Milestone 3,Task 10 for Milestone 3,T10,,10.0,Low,2025-08-14,20
 Website Redesign,Milestone 3,Task 11 for Milestone 3,T11,,6.0,High,2025-10-04,2025-10-06,David,Pending,0.0,,,,0,
 Website Redesign,Milestone 3,Task 12 for Milestone 3,T12,T11,15.0,High,2025-09-02,2025-09-08,Bob,Pending,0.0,,,,0,
 Website Redesign,Milestone 3,Task 13 for Milestone 3,T13,,6.0,Low,2025-09-19,2025-09-22,Eve,Pending,0.0,,,,0,
-Website Redesign,Milestone 4,Task 14 for Milestone 4,T14,,11.0,High,2025-09-08,2025-09-15,Charlie,Paused,0.01,,"2025-08-08T09:20:23 | Move -> In Progress: 
-2025-08-08T09:20:51 | Pause: ",2025-08-08T09:20:51,28,
+Website Redesign,Milestone 4,Task 14 for Milestone 4,T14,,11.0,High,2025-09-08,2025-09-15,Charlie,Pending,0.0,,,,0,
 Website Redesign,Milestone 4,Task 15 for Milestone 4,T15,,11.0,Low,2025-08-30,2025-08-31,Bob,Pending,0.0,,,,0,
 Website Redesign,Milestone 4,Task 16 for Milestone 4,T16,,14.0,Medium,2025-08-27,2025-08-29,Bob,Pending,0.0,,,,0,
 Website Redesign,Milestone 4,Task 17 for Milestone 4,T17,,14.0,High,2025-09-20,2025-09-28,David,Pending,0.0,,,,0,
@@ -36,25 +38,29 @@ Mobile App Launch,Milestone 3,Task 30 for Milestone 3,T30,,6.0,Low,2025-09-10,20
 Mobile App Launch,Milestone 3,Task 31 for Milestone 3,T31,,8.0,Low,2025-09-09,2025-09-18,Bob,Pending,0.0,,,,0,
 Mobile App Launch,Milestone 3,Task 32 for Milestone 3,T32,T31,17.0,High,2025-10-08,2025-10-17,Bob,Pending,0.0,,,,0,
 Mobile App Launch,Milestone 4,Task 33 for Milestone 4,T33,,13.0,Medium,2025-09-21,2025-09-27,David,Pending,0.0,,,,0,
-Mobile App Launch,Milestone 4,Task 34 for Milestone 4,T34,,18.0,High,2025-08-25,2025-08-29,Alice,Canceled,0.0,,"2025-08-08T09:25:53 | Move -> In Progress: 
-2025-08-08T09:26:01 | Move -> Paused: 
-2025-08-08T09:26:13 | Move -> In Progress: 
-2025-08-08T09:26:18 | Move -> Canceled: ",2025-08-08T09:26:18,12,
+Mobile App Launch,Milestone 4,Task 34 for Milestone 4,T34,,18.0,High,2025-08-25,2025-08-29,Alice,Paused,0.01,,"2025-08-07T21:52:21 | Start: 
+2025-08-07T21:52:44 | Pause: ",2025-08-07T21:52:44,20,
 Mobile App Launch,Milestone 4,Task 35 for Milestone 4,T35,T34,11.0,Low,2025-08-24,2025-08-25,Alice,Pending,0.0,,,,0,
 Mobile App Launch,Milestone 4,Task 36 for Milestone 4,T36,,5.0,High,2025-08-14,2025-08-15,Charlie,Pending,0.0,,,,0,
 Mobile App Launch,Milestone 4,Task 37 for Milestone 4,T37,T36,11.0,Medium,2025-09-21,2025-09-29,Bob,Pending,0.0,,,,0,
 Cloud Migration,Milestone 1,Task 38 for Milestone 1,T38,,8.0,Low,2025-10-08,2025-10-18,Eve,Pending,0.0,,,,0,
 Cloud Migration,Milestone 1,Task 39 for Milestone 1,T39,T38,19.0,Medium,2025-08-22,2025-08-24,Alice,Pending,0.0,,,,0,
 Cloud Migration,Milestone 1,Task 40 for Milestone 1,T40,,15.0,Medium,2025-09-05,2025-09-13,Alice,Pending,0.0,,,,0,
-Cloud Migration,Milestone 1,Task 41 for Milestone 1,T41,,7.0,High,2025-09-04,2025-09-10,Alice,Pending,0.0,,,,0,
+Cloud Migration,Milestone 1,Task 41 for Milestone 1,T41,,7.0,High,2025-09-04,2025-09-10,Alice,Completed,0.01,,"2025-08-07T21:53:04 | Start Next: 
+2025-08-07T21:53:08 | Pause for Next: 
+2025-08-07T21:53:45 | Resume: 
+2025-08-07T21:54:05 | Pause: 
+2025-08-07T21:54:16 | Resume: 
+2025-08-07T21:54:24 | Complete: ",2025-08-07T21:54:24,39,
 Cloud Migration,Milestone 1,Task 42 for Milestone 1,T42,T41,10.0,Low,2025-09-07,2025-09-10,David,Pending,0.0,,,,0,
 Cloud Migration,Milestone 2,Task 43 for Milestone 2,T43,,12.0,Medium,2025-08-25,2025-08-27,David,Pending,0.0,,,,0,
-Cloud Migration,Milestone 2,Task 44 for Milestone 2,T44,,7.0,High,2025-09-20,2025-09-29,Alice,Completed,0.01,,"2025-08-08T09:24:15 | Move -> In Progress: 
-2025-08-08T09:24:38 | Complete: ",2025-08-08T09:24:38,27,
+Cloud Migration,Milestone 2,Task 44 for Milestone 2,T44,,7.0,High,2025-09-20,2025-09-29,Alice,Paused,0.0,,"2025-08-07T21:53:10 | Start Next: 
+2025-08-07T21:53:24 | Pause: ",2025-08-07T21:53:24,12,
 Cloud Migration,Milestone 2,Task 45 for Milestone 2,T45,,11.0,High,2025-09-05,2025-09-13,David,Pending,0.0,,,,0,
-Cloud Migration,Milestone 3,Task 46 for Milestone 3,T46,,16.0,High,2025-08-20,2025-08-27,Alice,Pending,0.0,,,,0,
+Cloud Migration,Milestone 3,Task 46 for Milestone 3,T46,,16.0,High,2025-08-20,2025-08-27,Alice,Canceled,0.0,,2025-08-07T21:55:14 | Cancel: ,2025-08-07T21:55:14,0,
 Cloud Migration,Milestone 3,Task 47 for Milestone 3,T47,,12.0,Medium,2025-08-28,2025-09-04,Eve,Pending,0.0,,,,0,
-Cloud Migration,Milestone 3,Task 48 for Milestone 3,T48,,19.0,High,2025-08-22,2025-08-27,Bob,Pending,0.0,,,,0,
+Cloud Migration,Milestone 3,Task 48 for Milestone 3,T48,,19.0,High,2025-08-22,2025-08-27,Bob,Completed,0.0,This was done using AI,"2025-08-08T08:38:12 | Move -> In Progress: 
+2025-08-08T08:38:31 | Complete: This was done using AI",2025-08-08T08:38:31,11,
 Cloud Migration,Milestone 4,Task 49 for Milestone 4,T49,,5.0,Low,2025-08-30,2025-08-31,Alice,Pending,0.0,,,,0,
 Cloud Migration,Milestone 4,Task 50 for Milestone 4,T50,T49,20.0,Low,2025-08-20,2025-08-21,Eve,Pending,0.0,,,,0,
 Cloud Migration,Milestone 4,Task 51 for Milestone 4,T51,T50,9.0,High,2025-09-17,2025-09-19,Bob,Pending,0.0,,,,0,
@@ -67,7 +73,8 @@ CRM Upgrade,Milestone 2,Task 57 for Milestone 2,T57,,6.0,Low,2025-08-23,2025-09-
 CRM Upgrade,Milestone 2,Task 58 for Milestone 2,T58,T57,15.0,High,2025-10-05,2025-10-09,Charlie,Pending,0.0,,,,0,
 CRM Upgrade,Milestone 2,Task 59 for Milestone 2,T59,T58,18.0,Low,2025-09-24,2025-09-29,Eve,Pending,0.0,,,,0,
 CRM Upgrade,Milestone 3,Task 60 for Milestone 3,T60,,20.0,High,2025-09-21,2025-09-30,Charlie,Pending,0.0,,,,0,
-CRM Upgrade,Milestone 3,Task 61 for Milestone 3,T61,,7.0,High,2025-08-26,2025-08-28,Alice,In Progress,0.0,,2025-08-08T12:22:05 | Move -> In Progress: ,2025-08-08T12:22:05,0,2025-08-08T12:22:04.170218
+CRM Upgrade,Milestone 3,Task 61 for Milestone 3,T61,,7.0,High,2025-08-26,2025-08-28,Alice,Paused,0.0,,"2025-08-07T21:56:03 | Start Next: 
+2025-08-07T21:56:10 | Pause: ",2025-08-07T21:56:10,6,
 CRM Upgrade,Milestone 3,Task 62 for Milestone 3,T62,,8.0,Medium,2025-08-28,2025-09-07,Bob,Pending,0.0,,,,0,
 CRM Upgrade,Milestone 3,Task 63 for Milestone 3,T63,,10.0,Low,2025-09-19,2025-09-24,Eve,Pending,0.0,,,,0,
 CRM Upgrade,Milestone 3,Task 64 for Milestone 3,T64,T63,5.0,High,2025-09-19,2025-09-26,Charlie,Pending,0.0,,,,0,
